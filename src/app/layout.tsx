@@ -1,5 +1,6 @@
 import Navbar from '@/components/views/Navbar'
 import './globals.css'
+
 import { Bree_Serif } from 'next/font/google'
 import Wrapper from '@/components/shared/Wrapper'
 
