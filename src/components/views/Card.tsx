@@ -12,13 +12,13 @@ function urlFor(source: any){
 }
 
 const Card: FC<{ singleProductData: oneProductType }> = ({ singleProductData }) => {
-    
     return (
-        <div className='border-4 border-black max-w-sm min-w-[24rem] space-y-3 rounded-lg'>
-            <div className='w-full'>
-                <Image width={1000} height={1000} src={urlFor(singleProductData.image[0]).width(1000).height(1000).url()} alt={singleProductData.image[0].alt}/>
+        <div className='bg-white rounded-lg min-w-[24rem] space-y-3 select-none'>
+            <div className='w-full relative'>
+                <div className='absolute inset-0 z-10'/>
+                <Image width={500} height={500} src={urlFor(singleProductData.image[0]).width(500).height(500).url()} alt={singleProductData.image[0].alt}/>
             </div>
-            <div className='space-y-1 font-semibold text-lg text-center bg-white border-black'>
+            <div className='space-y-1 font-semibold text-lg text-center border-t-4 bg-white border-black'>
                 <h6>{singleProductData.productName}</h6> 
                 <p>{singleProductData.price}</p>
             </div>

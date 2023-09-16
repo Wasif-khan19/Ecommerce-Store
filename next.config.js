@@ -4,21 +4,17 @@ const nextConfig = {
         remotePatterns:[
             {
                 protocol: 'https',
-                hostname: 'full-stack-ecommerce-clothing-web.vercel.app',
+                hostname: 'https://sahalsooq.vercel.app/',
                 port: '',
                 pathname: "/**",
             },
-        ],
-    },
-    images:{
-        remotePatterns: [
             {
                 protocol: 'https',
                 hostname: 'cdn.sanity.io',
                 port: '',
                 pathname: "/**",
             }
-        ]
+        ],
     }
 }
 module.exports = nextConfig
