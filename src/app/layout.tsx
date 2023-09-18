@@ -21,9 +21,6 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
           <div className='min-h-screen'>
           {children}
           </div>
-        </Wrapper>
-          <hr/>
-        <Wrapper>
           <Footer/>
         </Wrapper>
       </body>

@@ -9,7 +9,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="text-black body-font">
-      <div className= "container px-5 py-24 mx-auto flex md:items-start text-start  lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className= "container px-5 py-16 mx-auto flex md:items-start text-start  lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="space-y-6 w-64 flex-shrink-0 md:mx-0 mx-auto text-start md:text-left">
           <Link
             href={"/"}

@@ -8,8 +8,8 @@ const Newslatter = () => {
         <div className="border-2 border-black flex items-center bg-white text-gray-600 pl-3 rounded-md">
             <input
               type="text"
-              className="focus:outline-none pl-1 pr-5 py-1 w-80 rounded-r-md"
-              placeholder="Subscrice our Newsletter"
+              className="focus:outline-none rounded-r-md py-1 px-2 md:px-4 flex flex-grow w-80"
+              placeholder="Enter email address"
             />
           </div>
           <button className="transition ease-in duration-300 rounded-md cursinter bg-black px-4 py-2 text-white hover:bg-blue-800 hover:text-black">Subscribe</button>
