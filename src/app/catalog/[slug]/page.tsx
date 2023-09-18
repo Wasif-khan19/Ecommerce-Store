@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const Catalog = () => {
+const Catalog: FC<{ params:{slug:string}}> = ({params}) => {
   return (
-    <div>Catalog</div>
+    <div>{params.slug}</div>
   )
 }
 

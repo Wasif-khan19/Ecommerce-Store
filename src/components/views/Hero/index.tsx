@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='mt-10 flex justify-between items-center flex-col md:flex-row'>
       {/* right side */}
       <div className='space-y-6 max-w-[28rem] text-center md:text-left'>
-        <button aria-label='redirect to discounts page' className='rounded-md cursor-pointer bg-black px-3 py-3 text-xl font-medium text-white '>SALE 70%</button>
+        <button aria-label='redirect to discounts page' className='rounded-md cursinter bg-black px-3 py-3 text-xl font-medium text-white '>SALE 70%</button>
         <h1 className='text-5xl sm:text-6xl font-bold'>Embrace The Joy Of Online Shopping</h1>
         <p className='text-lg'>Elevate Your Fashion and Empower Your Creations with Our Curated Collection of Fashion and Kitchen Essentials</p>
         <div className='flex items-center justify-center md:justify-start'>

@@ -3,6 +3,7 @@ import './globals.css'
 
 import { Bree_Serif } from 'next/font/google'
 import Wrapper from '@/components/shared/Wrapper'
+import Footer from '@/components/views/Footer'
 
 const inter = Bree_Serif({ subsets: ['latin'], weight: ['400'] })
 
@@ -17,7 +18,13 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
       <body className={inter.className}>
         <Wrapper>
           <Navbar />
+          <div className='min-h-screen'>
           {children}
+          </div>
+        </Wrapper>
+          <hr/>
+        <Wrapper>
+          <Footer/>
         </Wrapper>
       </body>
     </html>
