@@ -1,8 +1,3 @@
-export interface slugType {
-    _type: string,
-    current: string,
-};
-
 export interface assetImageType {
     _type: string,
     _ref: string,

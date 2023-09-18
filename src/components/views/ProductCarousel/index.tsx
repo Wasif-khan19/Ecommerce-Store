@@ -81,12 +81,11 @@ const ProductCarousel: FC<{ ProductData: Array<oneProductType> }> = ({
           Check What We Have
         </h3>
       </div>
-      <div className="mt-8"></div>
       <div
         onMouseMove={mouseMoves}
         onMouseDown={mouseDown}
         onMouseUp={mouseUp}
-        className="select-none flex gap-4 overflow-x-hidden scrollGrab"
+        className="select-none flex gap-4 overflow-x-hidden scrollGrab overflow-y-hidden py-8"
         onTouchMove={mouseMovesForMobile}
         onTouchStart={mouseDownForMobile}
         onTouchEnd={mouseUp}

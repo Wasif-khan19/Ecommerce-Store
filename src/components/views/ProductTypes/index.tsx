@@ -12,7 +12,7 @@ const ProductTypes = () => {
         <h3 className='text-black text-4xl font-extrabold'>Our Promotions Events</h3>
       </div>
 
-      <div className='grid md:grid-cols-3 gap-5 px-2 py-8'>
+      <div className='grid md:grid-cols-3 gap-5 px-2 py-8 '>
         <div className='w-full row-span-2 h-96 rounded-md border-2 border-black bg-white shadow-blue-800 shadow-xl'>
           <div className='text-center'>
             <h1 className='font-medium md:mt-2 lg:mt-4 md:text-3xl lg:text-4xl text-3xl mt-3'>Sports Watch</h1>
